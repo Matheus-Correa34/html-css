@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontem em CSS</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            /*
+            Medidas absolutas 
+            cm, mm, in, px, pt, pc
+
+            Medidas Relativas
+            em, ex, rem, vm, vh, %
+            16px geralmente e = 1em
+            */
+
+            /*font-size: 1em;
+            font-weigt: pode ser 100 a 900 ou lighter...;
+            font-style: italic= italico
+            text-decoration: underline;*/
+            /*lighter=fino, normal, bold= grosso, bolder= muito grosso*/
+        }
+
+        h1{
+            /* shorthand font
+            - font style -> font-weight -> font size -> font family
+
+            font-family: 'Work Sans', sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic; */
+
+            font: italic bolder 3em 'work sans' sans-serif;
+        }
+
+        h2 {
+            font: bold 2em "work sans";
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes </h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium natus quod, rem molestiae iste nam similique eligendi sed provident asperiores a autem eius exercitationem aliquam? Distinctio aliquam quas ut nobis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur quos culpa quaerat sapiente beatae cumque ad? Eum ex, unde quibusdam beatae, nemo assumenda ducimus, porro quam animi quos saepe vitae?</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut sit vero corrupti ea molestias iste, natus quo explicabo fugit modi quae voluptatum maxime dignissimos ab soluta, perferendis deleniti quas fuga!</p>
+    <h2>Subtítulo do exercicio </h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste in amet deserunt odio et modi voluptate animi voluptatem, soluta at nemo sapiente provident ipsam. Nihil est autem quisquam? Repudiandae, expedita.
+    </p>
+</body>
+</html>
